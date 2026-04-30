@@ -28,7 +28,7 @@
         .border-yellow-brand { border-color: var(--primary-yellow); }
 
         .hero-gradient {
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=1920');
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://i.ibb.co/67gGhCXD/Gemini-Generated-Image-w2r1syw2r1syw2r1.png');
             background-size: cover;
             background-position: center;
         }
@@ -63,20 +63,6 @@
         .whatsapp-float:hover {
             transform: scale(1.1);
         }
-
-        /* Estilo para los loaders de imágenes dinámicas */
-        .img-loader {
-            border: 3px solid rgba(255,255,255,0.3);
-            border-top: 3px solid var(--primary-yellow);
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
     </style>
 </head>
 <body class="bg-white">
@@ -88,18 +74,17 @@
                 <div class="w-10 h-10 bg-yellow-brand flex items-center justify-center rounded-sm">
                     <span class="text-brown-brand font-bold text-xl">R</span>
                 </div>
-                <span class="text-2xl font-bold tracking-tighter text-white font-heading" id="logo-text">RENA HOUSE</span>
+                <span class="text-2xl font-bold tracking-tighter text-white font-heading transition-colors duration-300" id="logo-text">RENA HOUSE</span>
             </div>
             
-            <div class="hidden md:flex gap-8 items-center text-sm font-semibold uppercase tracking-widest text-white" id="nav-links">
+            <div class="hidden md:flex gap-8 items-center text-sm font-semibold uppercase tracking-widest text-white transition-colors duration-300" id="nav-links">
                 <a href="#modelos" class="hover:text-yellow-brand transition-colors">Modelos</a>
                 <a href="#proceso" class="hover:text-yellow-brand transition-colors">Proceso</a>
                 <a href="#galeria" class="hover:text-yellow-brand transition-colors">Proyectos</a>
-                <a href="https://wa.me/yournumber" class="bg-yellow-brand text-brown-brand px-6 py-3 rounded-sm hover:brightness-105 transition-all">Consultar Ahora</a>
+                <a href="https://wa.me/+5493471562047" class="bg-yellow-brand text-brown-brand px-6 py-3 rounded-sm hover:brightness-105 transition-all">Consultar Ahora</a>
             </div>
 
-            <!-- Mobile Menu Toggle -->
-            <button class="md:hidden text-white" id="mobile-menu-btn">
+            <button class="md:hidden text-white transition-colors duration-300" id="mobile-menu-btn">
                 <i data-lucide="menu"></i>
             </button>
         </div>
@@ -115,7 +100,7 @@
                 Diseño moderno, calidad premium y entrega rápida con sistema modular transportable.
             </p>
             <div class="flex flex-col md:flex-row gap-4 justify-center reveal" style="transition-delay: 0.4s;">
-                <a href="https://wa.me/yournumber" class="bg-yellow-brand text-brown-brand px-10 py-5 font-bold uppercase tracking-widest text-sm hover:shadow-2xl hover:-translate-y-1 transition-all flex items-center justify-center gap-2">
+                <a href="https://wa.me/+5493471562047" class="bg-yellow-brand text-brown-brand px-10 py-5 font-bold uppercase tracking-widest text-sm hover:shadow-2xl hover:-translate-y-1 transition-all flex items-center justify-center gap-2">
                     <i data-lucide="message-circle" class="w-5 h-5"></i>
                     Consultar por WhatsApp
                 </a>
@@ -133,12 +118,12 @@
                 <div class="reveal space-y-4">
                     <div class="text-yellow-brand mb-4"><i data-lucide="clock" class="w-10 h-10"></i></div>
                     <h3 class="text-xl font-bold font-heading">Entrega en 60 días</h3>
-                    <p class="text-stone-500 leading-relaxed">Fabricación industrializada que optimiza tiempos sin sacrificar terminaciones.</p>
+                    <p class="text-stone-500 leading-relaxed">Fabricación industrializada que optimiza tiempos y asegura calidad.</p>
                 </div>
                 <div class="reveal space-y-4" style="transition-delay: 0.1s;">
                     <div class="text-yellow-brand mb-4"><i data-lucide="shield-check" class="w-10 h-10"></i></div>
-                    <h3 class="text-xl font-bold font-heading">Steel Frame Premium</h3>
-                    <p class="text-stone-500 leading-relaxed">Estructura de alta resistencia con máxima eficiencia térmica y acústica.</p>
+                    <h3 class="text-xl font-bold font-heading">Estructura metálica + Steel Framing</h3>
+                    <p class="text-stone-500 leading-relaxed">Estructura metálica reforzada con cerramientos de Steel Framing.</p>
                 </div>
                 <div class="reveal space-y-4" style="transition-delay: 0.2s;">
                     <div class="text-yellow-brand mb-4"><i data-lucide="maximize" class="w-10 h-10"></i></div>
@@ -158,7 +143,7 @@
     <section class="py-24 flex flex-col md:flex-row items-center gap-16 px-6 max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 reveal">
             <div class="relative">
-                <img src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&q=80&w=1200" alt="Arquitectura Rena House" class="rounded-sm shadow-2xl">
+                <img src="https://i.ibb.co/Y47MqRcW/DSC-0016.jpg" alt="Arquitectura Rena House" class="rounded-sm shadow-2xl">
                 <div class="absolute -bottom-6 -right-6 bg-yellow-brand p-8 hidden lg:block">
                     <p class="text-brown-brand font-bold text-4xl">100%</p>
                     <p class="text-brown-brand text-xs uppercase tracking-tighter">Llave en mano</p>
@@ -169,7 +154,7 @@
             <h4 class="text-yellow-brand font-bold tracking-[0.3em] uppercase text-sm">Nuestro Concepto</h4>
             <h2 class="text-4xl md:text-5xl font-bold text-brown-brand leading-tight">La nueva era de la vivienda inteligente</h2>
             <p class="text-lg text-stone-600 leading-loose">
-                En Rena House, fusionamos la precisión industrial con el diseño de autor. No construimos solo casas; creamos espacios habitables de lujo que se adaptan a tu estilo de vida dinámico. Sin obras eternas, sin sorpresas de presupuesto, solo calidad pura.
+                En Rena House, fusionamos la precisión industrial con el diseño. No construimos solo casas; creamos espacios habitables de lujo que se adaptan a tu estilo de vida. Sin obras eternas, sin sorpresas de presupuesto, solo calidad.
             </p>
             <div class="pt-4 border-l-4 border-yellow-brand pl-6">
                 <p class="italic text-stone-500">"Redefiniendo el hogar a través de la modularidad y el respeto por el entorno."</p>
@@ -189,7 +174,7 @@
                 <!-- Model 1 (R1) -->
                 <div class="model-card group bg-white border border-stone-100 shadow-sm overflow-hidden reveal">
                     <div class="overflow-hidden h-64 relative">
-                        <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&q=80&w=800" alt="Modelo R1" class="model-img w-full h-full object-cover transition-transform duration-500">
+                        <img src="https://i.ibb.co/v49cqGM6/DSC-0087.jpg" alt="Modelo R1" class="model-img w-full h-full object-cover transition-transform duration-500">
                         <div class="absolute top-4 left-4 bg-brown-brand text-white text-xs px-3 py-1 uppercase tracking-widest font-bold">Desde 45m²</div>
                     </div>
                     <div class="p-8 space-y-4">
@@ -209,7 +194,7 @@
                 <!-- Model 2 (R2) -->
                 <div class="model-card group bg-white border border-stone-100 shadow-sm overflow-hidden reveal" style="transition-delay: 0.1s;">
                     <div class="overflow-hidden h-64 relative">
-                        <img src="https://images.unsplash.com/photo-1464146072230-91cabc968266?auto=format&fit=crop&q=80&w=800" alt="Modelo R2" class="model-img w-full h-full object-cover transition-transform duration-500">
+                        <img src="https://i.ibb.co/zV2mz4Wx/DSC-0039.jpg" alt="Modelo R2" class="model-img w-full h-full object-cover transition-transform duration-500">
                         <div class="absolute top-4 left-4 bg-brown-brand text-white text-xs px-3 py-1 uppercase tracking-widest font-bold">Desde 75m²</div>
                     </div>
                     <div class="p-8 space-y-4">
@@ -226,11 +211,10 @@
                     </div>
                 </div>
 
-                <!-- Model 3 (R3 - FIXED) -->
+                <!-- Model 3 (R3) -->
                 <div class="model-card group bg-white border border-stone-100 shadow-sm overflow-hidden reveal" style="transition-delay: 0.2s;">
-                    <div class="overflow-hidden h-64 relative bg-stone-100 flex items-center justify-center">
-                        <div id="loader-r3" class="img-loader absolute"></div>
-                        <img id="img-r3" src="" alt="Modelo R3" class="model-img w-full h-full object-cover transition-transform duration-500 hidden">
+                    <div class="overflow-hidden h-64 relative">
+                        <img src="https://i.ibb.co/RpLMNYTN/DSC-0050-1.jpg" alt="Modelo R3" class="model-img w-full h-full object-cover transition-transform duration-500">
                         <div class="absolute top-4 left-4 bg-brown-brand text-white text-xs px-3 py-1 uppercase tracking-widest font-bold">Desde 110m²</div>
                     </div>
                     <div class="p-8 space-y-4">
@@ -250,32 +234,38 @@
         </div>
     </section>
 
-    <!-- Featured Model (Split section - FIXED) -->
-    <section class="bg-brown-brand text-white">
-        <div class="flex flex-col lg:flex-row">
-            <div class="w-full lg:w-1/2 p-12 md:p-24 space-y-8 flex flex-col justify-center reveal">
+    <!-- Featured Model Section -->
+    <section class="bg-brown-brand text-white overflow-hidden">
+        <div class="flex flex-col lg:flex-row items-stretch">
+            <div class="w-full lg:w-1/2 p-12 md:p-20 xl:p-24 space-y-6 flex flex-col justify-center reveal">
                 <h3 class="text-yellow-brand font-bold uppercase tracking-widest text-sm">Destacado de la semana</h3>
-                <h2 class="text-4xl md:text-5xl font-bold leading-tight">Master Suite Series:<br>Elegancia en el bosque</h2>
-                <p class="text-stone-300 text-lg leading-loose">
-                    Un diseño pensado para integrarse con la naturaleza. Incluye deck de madera premium de 20m² y terminaciones interiores en eucalipto laqueado. Sistema de domótica incluido.
-                </p>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-4 border-b border-white/10 pb-4">
-                        <i data-lucide="thermometer-snowflake" class="text-yellow-brand"></i>
-                        <span>Aislación Térmica de última generación</span>
+                <h2 class="text-4xl md:text-5xl font-bold leading-tight font-heading">Toldo móvil:<br><span class="text-stone-200 text-2xl md:text-3xl font-light">Versátil y práctico</span></h2>
+                <div class="space-y-4 text-stone-300 leading-relaxed text-base md:text-lg">
+                    <p>
+                        Diseñado para brindarte sombra y confort donde lo necesites. Su estructura permite trasladarlo fácilmente y adaptarlo a distintos espacios como jardines, patios o áreas comerciales.
+                    </p>
+                    <p>
+                        Fabricado con materiales resistentes, combina durabilidad y estética en una sola solución modular.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                    <div class="flex items-center gap-3 text-sm">
+                        <i data-lucide="move" class="text-yellow-brand w-5 h-5"></i>
+                        <span>Fácil de reubicar</span>
                     </div>
-                    <div class="flex items-center gap-4 border-b border-white/10 pb-4">
-                        <i data-lucide="sun" class="text-yellow-brand"></i>
-                        <span>Paneles Solares Opcionales</span>
+                    <div class="flex items-center gap-3 text-sm">
+                        <i data-lucide="cloud-sun" class="text-yellow-brand w-5 h-5"></i>
+                        <span>Resistente a intemperie</span>
                     </div>
                 </div>
-                <a href="https://wa.me/yournumber" class="inline-block bg-yellow-brand text-brown-brand px-12 py-5 font-bold uppercase tracking-widest text-sm hover:brightness-110 transition-all self-start">
-                    Solicitar Info Detallada
-                </a>
+                <div class="pt-6">
+                    <a href="https://wa.me/yournumber" class="inline-block bg-yellow-brand text-brown-brand px-10 py-4 font-bold uppercase tracking-widest text-xs hover:brightness-110 transition-all shadow-lg">
+                        Solicitar Presupuesto
+                    </a>
+                </div>
             </div>
-            <div class="w-full lg:w-1/2 min-h-[500px] relative bg-stone-800 flex items-center justify-center overflow-hidden">
-                <div id="loader-destacado" class="img-loader absolute"></div>
-                <img id="img-destacado" src="" alt="Modelo Destacado" class="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-700 hidden">
+            <div class="w-full lg:w-1/2 min-h-[400px] lg:min-h-full relative overflow-hidden flex items-center justify-center">
+                <img src="https://i.ibb.co/dJj10Xct/Gemini-Generated-Image-mtzqg6mtzqg6mtzq.png" alt="Toldo Móvil Rena House" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-700">
             </div>
         </div>
     </section>
@@ -405,8 +395,6 @@
     </a>
 
     <script>
-        const apiKey = ""; // API Key automática en el entorno
-
         // Initialize Lucide Icons
         lucide.createIcons();
 
@@ -448,52 +436,14 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const target = document.querySelector(targetId);
                 if (target) {
                     target.scrollIntoView({ behavior: 'smooth' });
                 }
             });
         });
-
-        // --- FIXED: IMAGE GENERATION LOGIC ---
-        async function fetchImage(prompt, imgId, loaderId) {
-            try {
-                const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        instances: [{ prompt: prompt }],
-                        parameters: { sampleCount: 1 }
-                    })
-                });
-                const result = await response.json();
-                if (result.predictions && result.predictions[0].bytesBase64Encoded) {
-                    const img = document.getElementById(imgId);
-                    const loader = document.getElementById(loaderId);
-                    img.src = `data:image/png;base64,${result.predictions[0].bytesBase64Encoded}`;
-                    img.classList.remove('hidden');
-                    if (loader) loader.classList.add('hidden');
-                }
-            } catch (err) {
-                console.error("Error generating image:", err);
-            }
-        }
-
-        window.onload = () => {
-            // Generar imagen para el Modelo R3 (Lujo ejecutivo)
-            fetchImage(
-                "Exterior photo of a luxury modular house, large glass windows, steel frame structure, high-end materials, forest background, evening lighting, architectural photography", 
-                "img-r3", 
-                "loader-r3"
-            );
-            
-            // Generar imagen para el Destacado (Master Suite en el bosque)
-            fetchImage(
-                "A stunning modern prefab house cabin deep in a pine forest, warm internal lights, wooden deck, large windows, dusk atmosphere, ultra realistic, professional architecture shot", 
-                "img-destacado", 
-                "loader-destacado"
-            );
-        };
     </script>
 </body>
 </html>
